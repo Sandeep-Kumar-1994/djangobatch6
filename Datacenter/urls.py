@@ -21,7 +21,11 @@ from django.http import HttpResponse
     #return HttpResponse("<i>the temperature is <strong>27.56</strong></i>")
 
 from cooling.views import fun
+from cooling.views import fun1
+from cooling.views import fun2
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('get-temp/', fun)
+    #path('get-temp/', fun)
+    path('html/', fun1),
+    path('information/',fun2)
 ]

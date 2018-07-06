@@ -1,11 +1,4 @@
-from django.shortcuts import render
-from django.http import HttpResponse
-# Create your views here.
-def fun(request):
-	return HttpResponse("27.56")
-
-def fun1(request):
-	resp ="""<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <title>
 	title tag information
@@ -36,10 +29,4 @@ def fun1(request):
     	Submit<input type = "submit"></input>
     </form>
 </body>
-</html>"""
-	return HttpResponse(resp)
-
-def fun2(request):
-    return render(request,"cooling/index.html")
-	
-
+</html>
