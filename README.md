@@ -33,6 +33,21 @@
                         path('admin/', admin.site.urls),
                         path('get-temp/', fun)
                   ]
+		  
+ 5th July:
+     We write the requester urls in the urls.py page and call the functions necessary written in the views.py.In views.py,all the      
+     functions are written with logic.All the content that you want to displayed on the url page can be written in views.py.
+     The code is written in HTML and CSS with the help of tags and stylish sheets.The HTML code is written with the hlp of tags like
+     title,head,body,from,select,header and anchor tags.All the HTML and CSS code written in var = """ """ and is assigned to a        
+     variable.It is returned to the url page with the return statement return HttpResponse(var).When you run the requested url it calls
+     the function in views.py page and displays the HTML code on the screen.
+     
+     
+     
+     
+     
+     
+     
          
 
            
